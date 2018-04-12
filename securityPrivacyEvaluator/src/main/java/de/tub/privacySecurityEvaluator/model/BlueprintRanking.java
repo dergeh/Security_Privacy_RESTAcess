@@ -1,10 +1,8 @@
-package privacy_rest_springboot.deployment;
-
-import java.util.List;
+package de.tub.privacySecurityEvaluator.model;
 
 public class BlueprintRanking  {
     private Property blueprint;
-    private float score;
+    private double score;
 
     public Property getBlueprint() {
         return blueprint;
@@ -16,11 +14,11 @@ public class BlueprintRanking  {
 
 
 
-    public float getScore() {
+    public double getScore() {
         return score;
     }
 
-    public void setScore(float score) {
+    public void setScore(double score) {
         this.score = score;
     }
 }

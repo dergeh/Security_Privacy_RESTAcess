@@ -1,4 +1,4 @@
-package privacy_rest_springboot.deployment;
+package de.tub.privacySecurityEvaluator.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

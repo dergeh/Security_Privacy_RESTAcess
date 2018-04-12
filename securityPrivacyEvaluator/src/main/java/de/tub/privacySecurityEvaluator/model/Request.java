@@ -1,4 +1,4 @@
-package privacy_rest_springboot.deployment;
+package de.tub.privacySecurityEvaluator.model;
 
 import java.util.List;
 

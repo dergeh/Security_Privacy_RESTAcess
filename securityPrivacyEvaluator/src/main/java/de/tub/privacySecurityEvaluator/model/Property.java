@@ -1,7 +1,6 @@
-package privacy_rest_springboot.deployment;
+package de.tub.privacySecurityEvaluator.model;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.util.JSONPObject;
 
 import java.util.List;
 
@@ -10,6 +9,15 @@ public class Property {
     private String name;
     private String type;
     private List<JsonNode> properties;
+
+    public Property(String id, String name, String type, List<JsonNode> properties) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.properties = properties;
+    }
+
+    public Property(){}
 
     public String getId() {
         return id;
